@@ -1,0 +1,27 @@
+{
+  "name": "@yarus/builder",
+  "version": "1.0.0",
+  "description": "Blazing fast, zero configuration node application bundler",
+  "bin": {
+    "builder": "./bin/builder.js"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.mjs",
+  "modules.root": "./lib",
+  "scripts": {
+    "clean": "rimraf bin lib public",
+    "prebuild": "npm run clean",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "develop": "echo \"Error: no develop specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yaroslav Usenko <usenko.jaroslav@gmail.com> (https://usenko.pp.ua)",
+  "repository": "github:yarus-app/builder",
+  "homepage": "https://github.com/yarus-app/builder",
+  "bugs": "https://github.com/yarus-app/builder/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.0"
+  }
+}
