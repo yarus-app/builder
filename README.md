@@ -1,6 +1,6 @@
 # [Yarus](https://github.com/yarus-app)/[babel-preset-centralized](https://github.com/yarus-app/builder)
 
-Blazing fast, zero configuration node application bundler
+Blazing fast, zero configuration node app and libs builder
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "name": "@yarus/builder",
   "version": "1.0.0",
-  "description": "Blazing fast, zero configuration node application bundler",
+  "description": "Blazing fast, zero configuration node app and libs builder",
   "bin": {
     "builder": "./bin/builder.js"
   },
