@@ -2,6 +2,7 @@ import path from 'path'
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import babel from 'rollup-plugin-babel';
+import json from '@rollup/plugin-json'
 import { terser } from "rollup-plugin-terser";
 import executable from "rollup-plugin-executable";
 import run from '@rollup/plugin-run';
@@ -19,20 +20,18 @@ export default commandLineArgs => {
       banner: '#!/usr/bin/env node',
       sourcemap: false
     },
+    external: dependency =>
+      dependency !== 'src/cli/builder.js' &&
+      !(/^\./).exec(dependency) && // isRelative
+      !path.isAbsolute(dependency),
     plugins: [
       resolve(),
       commonjs({
         include: /node_modules/
       }),
+      json(),
       babel({
-        presets: [
-          ['@babel/preset-env', {
-            modules: false,
-            targets: {
-              node: 12
-            }
-          }]
-        ],
+        runtimeHelpers: true,
         exclude: /node_modules/
       }),
       executable(),

@@ -1,0 +1,8 @@
+{
+  "name": "esnext-multibinary",
+  "version": "1.0.0",
+  "bin": {
+    "first": "bin/first-cli.js",
+    "second": "bin/second-cli.js"
+  }
+}

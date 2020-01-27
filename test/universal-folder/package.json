@@ -1,0 +1,11 @@
+{
+  "name": "universal-folder",
+  "version": "1.0.0",
+  "bin": {
+    "mycli": "./bin/mycli.js"
+  },
+  "main": "lib/node.cjs.js",
+  "module": "lib/node.esm.js",
+  "browser": "public/browser.esm.js",
+  "unpkg": "public/browser.umd.js"
+}
