@@ -2,7 +2,7 @@
   "name": "esnext",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "module": "lib/index.mjs",
   "browser": "public/index.js",
+  "module": "lib/index.mjs",
   "unpkg": "public/index.umd.js"
 }

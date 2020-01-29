@@ -1,3 +1,3 @@
 export default function() {
-  console.log("I'm on NodeJS")
+  console.log("I'm on NodeJS");
 }

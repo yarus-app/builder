@@ -1,0 +1,15 @@
+{
+  "name": "typescript-jsx-react",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Sebastian Werner <s.werner@sebastian-software.de>",
+  "main": "dist/index.cjs.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/index.umd.js"
+}

@@ -1,5 +1,5 @@
-import { camelCase } from "lodash"
+import { camelCase } from 'lodash';
 
-import { realWords } from "../common"
+import { realWords } from '../common';
 
-console.log("Magic:", camelCase(realWords))
+console.log('Magic:', camelCase(realWords));

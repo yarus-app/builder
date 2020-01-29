@@ -2,7 +2,7 @@
   "name": "universal-basic",
   "version": "1.0.0",
   "main": "lib/node.cjs.js",
-  "module": "lib/node.esm.js",
   "browser": "public/browser.esm.js",
+  "module": "lib/node.esm.js",
   "unpkg": "public/browser.umd.js"
 }

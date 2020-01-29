@@ -1,3 +1,3 @@
 export default function() {
-  console.log("I'm in the CLI")
+  console.log("I'm in the CLI");
 }

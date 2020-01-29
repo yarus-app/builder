@@ -1,0 +1,14 @@
+{
+  "name": "esnext-min",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Sebastian Werner <s.werner@sebastian-software.de>",
+  "main": "dist/index.cjs.min.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "module": "dist/index.esm.min.js",
+  "unpkg": "dist/index.umd.min.js"
+}

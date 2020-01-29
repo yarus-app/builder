@@ -1,8 +1,8 @@
 /* eslint-disable import/no-unresolved */
 
-import React from "react"
-import { FormattedMessage } from "react-intl"
-import Header from "components/Header"
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+import Header from 'components/Header';
 
 export function MyPage() {
   return (
@@ -12,5 +12,5 @@ export function MyPage() {
         <FormattedMessage id="press-button" />
       </button>
     </>
-  )
+  );
 }
